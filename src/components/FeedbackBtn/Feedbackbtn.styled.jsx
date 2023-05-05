@@ -29,5 +29,7 @@ export const Btn = styled.button`
   &:active {
     transform: scale(1.2);
   }
-
+  & > svg {
+    margin-right: 8px;
+  }
 `;

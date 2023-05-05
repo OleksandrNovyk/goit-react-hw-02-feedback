@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { BtnWrapper } from './FeedbackOptions.styled';
 import { Feedbackbtn } from '../FeedbackBtn/FeedbackBtn';
 
-
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <BtnWrapper>
@@ -12,7 +11,6 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
           <li>
             <Feedbackbtn
               key={option}
-              // icon={icons[option]}
               type="button"
               status={option}
               text={option}
