@@ -6,7 +6,7 @@ export const Btn = styled.button`
   justify-content: center;
   border-radius: 8px;
   padding: 12px 16px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   text-transform: capitalize;
   border: none;
@@ -30,7 +30,4 @@ export const Btn = styled.button`
     transform: scale(1.2);
   }
 
-  & > svg {
-    margin-right: 8px;
-  }
 `;
