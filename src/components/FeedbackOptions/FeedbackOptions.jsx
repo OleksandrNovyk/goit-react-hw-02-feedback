@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 import { BtnWrapper } from './FeedbackOptions.styled';
 import { Feedbackbtn } from '../FeedbackBtn/FeedbackBtn';
-import { icons } from './icons';
+
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
@@ -12,7 +12,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
           <li>
             <Feedbackbtn
               key={option}
-              icon={icons[option]}
+              // icon={icons[option]}
               type="button"
               status={option}
               text={option}
